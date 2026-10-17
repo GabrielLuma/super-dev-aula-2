@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento - PetAmigo</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            🐶 PetAmigo
+        </h1>
+        <h2>
+            Agendamento de Serviços
+        </h2>
+        <p>
+            Preencha o formulário abaixo para solicitar um agendamento
+            para seu animal de estimação.
+        </p>
+        <p>Todos os campos marcados como obrigatórios devem ser preenchidos.</p>
+    </header>
+
+    <main>
+        <form>
+
+
+            <p>
+            <h3>1. Dados do responsável</h3>
+
+            <label for="nome">Nome completo:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+            <br><br>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="exemplo@email.com" required>
+            <br><br>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000">
+            </p>
+
+            <br>
+
+            <p>
+            <h3>2. Informações do animal</h3>
+
+            <label for="nome-animal">Nome do animal:</label>
+            <input type="text" id="nome-animal" name="nome_animal" placeholder="Digite o nome do animal" required>
+            <br><br>
+
+            <label for="especie">Espécie:</label>
+            <select id="especie" name="especie" required>
+                <option value="">Selecione uma opção</option>
+                <option value="cachorro">Cachorro</option>
+                <option value="gato">Gato</option>
+                <option value="outro">Outro</option>
+            </select>
+
+            <p>Qual é o porte do animal?</p>
+
+            <input type="radio" id="porte-pequeno" name="porte" value="pequeno" required>
+            <label for="porte-pequeno">Pequeno</label>
+            <br>
+
+            <input type="radio" id="porte-medio" name="porte" value="medio">
+            <label for="porte-medio">Médio</label>
+            <br>
+
+            <input type="radio" id="porte-grande" name="porte" value="grande">
+            <label for="porte-grande">Grande</label>
+            </p>
+
+            <br>
+
+            <p>
+            <h3>3. Serviços desejados</h3>
+
+            <p>Selecione um ou mais serviços:</p>
+
+            <input type="checkbox" id="banho" name="servicos[]" value="banho">
+            <label for="banho">Banho</label>
+            <br>
+
+            <input type="checkbox" id="tosa" name="servicos[]" value="tosa">
+            <label for="tosa">Tosa</label>
+            <br>
+
+            <input type="checkbox" id="corte-unhas" name="servicos[]" value="corte_unhas">
+            <label for="corte-unhas">Corte de unhas</label>
+            <br>
+
+            <input type="checkbox" id="hidratacao" name="servicos[]" value="hidratacao">
+            <label for="hidratacao">Hidratação</label>
+            </p>
+
+            <br>
+
+            <p>
+            <h3>4. Data e horário</h3>
+
+            <label for="data">Data desejada:</label>
+            <input type="date" id="data" name="data" required>
+            <br><br>
+
+            <label for="horario">Horário desejado:</label>
+            <input type="time" id="horario" name="horario" required>
+            </p>
+
+            <br>
+
+            <p>
+            <h3>5. Observações</h3>
+
+            <label for="observacoes">
+                Informe necessidades especiais ou outros detalhes:
+            </label>
+            <br>
+
+            <textarea id="observacoes" name="observacoes" maxlength="300"
+                placeholder="Digite suas observações"></textarea>
+            </p>
+
+            <br>
+
+            <p>
+            <h3>6. Confirmação</h3>
+
+            <input type="checkbox" id="confirmacao" name="confirmacao" value="sim" required>
+            <label for="confirmacao">
+                Confirmo que as informações fornecidas estão corretas.
+            </label>
+            </p>
+
+            <br>
+
+            <button>
+                Solicitar agendamento
+            </button>
+
+
+
+        </form>
+    </main>
+
+</body>
+
+</html>

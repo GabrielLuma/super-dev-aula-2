@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel and Play</title>
+</head>
+
+<body>
+    <!-- 1. Header: titulo, subtitulo e navegação para as tres paginas-->
+
+    <header>
+        <h1>Pixel and Play</h1>
+        <h2>Festival de games e cultura pop</h2>
+
+        <nav>
+            <a href="./index.html">Inicio</a>
+            <a href="./paginas/incrisção.html">incrisção/</a>
+            <a href="./paginas/programação.html">programação</a>
+        </nav>
+    </header>
+
+    <!-- Main
+      1.Seção de apresentação do festival
+      2.Seção de atraçoes
+      3.Seção com videos e auidos
+      -->
+
+    <main id="conteudo">
+        <section id="sobre">
+            <h2>Um fim de semana para quem gosta de jogar</h2>
+            <p>O <strong>Pixel And Play </strong>Reúne jogos retro, torneios, cosplay e oficinas criativas em um só
+                lugar</p>
+            <p>
+                O evento acontece nos dias
+                <time datetime="2026-11-21">21</time> e
+                <time datetime="2026-11-22"> 22 de novembro de 2026 </time>.
+            </p>
+
+            <img src="./midias/cartaz-festival.png"
+                alt="cartaz ilustrado pixel and play, com fomrmas de jogos retro e as datas do festivel">
+        </section>
+
+        <section id="experiencias">
+            <h2>O que voce vai encontrar</h2>
+
+            <ul>
+                <li>Campeonato de jogos</li>
+                <li>Area de consoles classicos</li>
+                <li>Desfile de cosplay</li>
+                <li>Oficinas de desenho e pixel ar</li>
+            </ul>
+            <h3>Como participar</h3>
+
+            <ol>
+                <li>Confira a <a href="./paginas/programação.html#horarios">programação</a></li>
+                <li>Escolha as atividades que mais gosta</li>
+                <li>Preencha a <a href="./paginas/incrisção.html">formulario de inscrição</a></li>
+            </ol>
+        </section>
+
+        <section id="midias">
+            <h2>Um gostinho do festival</h2>
+            <h3>Teaser em video</h3>
+
+            <video controls src="./midias/teaser-pixel-play.mp4" width="640" poster="./midias/cartaz-festival.png">
+                <track src="./midias/teaser.vtt" kind="captions" srclang="pt-BR" label="portugues" default>
+                Seu navegador não suporte video e audio em html
+            </video>
+
+            <h3>Vinheta em Áudio</h3>
+            <audio controls src="midias/vinheta-8bits.mp3">
+
+            </audio>
+        </section>
+
+    </main>
+
+    \<footer>
+        <p>Pixel And Play - Projeto para a aula de HTML 5</p>
+        <a href="conteudo"></a>
+    </footer>
+            <!-- Footer/Rodape-->
+
+</body>
+
+</html>
