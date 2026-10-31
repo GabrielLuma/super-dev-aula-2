@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperDev-Inicio</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            SuperDev
+        </h1>
+
+        <nav>
+            <a href="./index.html">Início</a>
+        </nav>
+    </header>
+
+    <main>
+        <form>
+            <p>
+                <label for="norme">Nome:</label>
+                <Input type="text" name="nome" id="nome" minlength="3" maxlength="25" required>
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+            </p>
+            <p>
+                <label for="telefone">Telefone:</label>
+                <input type="tel" name="telefone" id="telefone" placeholder="(12)34567-8910">
+            </p>
+            <p>
+                <label for="data de nascimento">Data de Nascimento:</label>
+                <input type="date" name="data de nascimento" id="data de nascimento">
+            </p>
+            <p>
+            <h3>Modalidade de Preferencia</h3>
+            <label for="presencial">presencial:</label>
+            <input type="radio" name="presencial" id="presencial">
+            <label for="online">Online:</label>
+            <input type="radio" name="online" id="online">
+            </p>
+
+            <p>
+                <label for="curso">Curso Desejado:</label>
+                <select id="curso" name="curso">
+                    <option>HTML</option>
+                    <option>CSS</option>
+                    <option>JavaScript</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="idade"> Idade:</label>
+                <input type="number" name="idade" id="idade" min="1" max="100">
+            </p>
+
+            <p>
+            <h2>Assuntos de interesse (pode escolher mais de um)</h2>
+
+            <label>Banco de dados</label>
+            <input type="checkbox" value="Banco de dados">
+
+            <label>Machine learning</label>
+            <input type="checkbox" value="Machine learning">
+
+            <label>GitHub</label>
+            <input type="checkbox" value="GitHub">
+
+            </p>
+
+            <p>
+                <label>Observação:</label>
+                <br>
+                <textarea placeholder="Observação" maxlength="255"></textarea>
+            </p>
+
+
+            </p>
+
+            <button>
+                Enviar
+            </button>
+        </form>
+    </main>
+
+
+
+
+
+
+
+
+
+</body>
