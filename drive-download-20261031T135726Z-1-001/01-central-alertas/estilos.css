@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4eff8;
+    color: #30243a;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #39234f;
+    color: white;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 2.8rem;
+    letter-spacing: -0.04em;
+}
+
+.aviso {
+    border: 1px solid #c9b7d8;
+    border-radius: 14px;
+    box-shadow: 0 7px 20px rgba(49, 30, 64, 0.08);
+    background-color: white;
+}
+
+.aviso.aviso-urgente {
+    border: 3px solid #bd55e7;
+    box-shadow: 0 7px 20px rgba(61, 21, 94, 0.3);
+    background-color: #3d155e;
+    color: white;
+}
+
+.aviso.aviso-concluido {
+    border: 2px solid #8e6aa8;
+    background-color: #e9def1;
+    color: #352342;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #d8c3e8;
+}
+
+a:focus-visible {
+    outline: 3px solid #9b59b6;
+}
